@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: Titillium Web;
+    /* overflow-x: hidden !important; */
+    /* overflow: hidden; */
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background:#f6b147;
+  }
+  
+  ::selection {
+    color: white;
+    background:#f6b147;
+  }
+.navbar {
+    color: white;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.navbar-toggler {
+    /* font-size: 10px !important; */
+    border: none !important;
+    color: #f6b147 !important;
+}
+#nav-toggle-button{
+    color: #f6b147 !important;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 40px 100px; */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    margin-top: 20px;
+}
+
+.pargasiranLogo {
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.behindSearchBox{
+    width: 100% !important;
+    height: 100vh !important;
+    display: none;
+}
+.closeSearch{
+    text-align: right !important;
+    display: none;
+    margin-right: 50px;
+    margin-top: 5% !important;
+    /* margin-left: 0 !important;
+    padding-left: 0 !important; */
+}
+.fa-xmark {
+    color: #fff !important;
+    font-size: 28px !important;
+    /* background-color: rgb(218, 160, 36) !important; */
+    text-align: center !important;
+}
+
+.py-4 {
+    display: none;
+    z-index: 10 !important;
+    margin-top: 240px;
+}
+
+.form-control {
+    height: 80px !important;
+}
+
+input,
+input::placeholder {
+    font: 2.25rem/3 sans-serif;
+    color: #fff !important;
+}
+
+@media screen and (min-width:100px) and (max-width:450px) {
+    input,
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+    color: #fff !important;
+    }
+    .fa-magnifying-glass1 {
+        font-size: 18px !important;
+    }
+}
+
+input {
+    font-family: Titillium Web !important;
+    font-size: 28px !important;
+    background-color: transparent !important;
+    border-top: 2px solid rgb(218, 160, 36) !important;
+    border-left: 2px solid rgb(218, 160, 36) !important;
+    border-bottom: 2px solid rgb(218, 160, 36) !important;
+    border-right: none !important;
+}
+
+.searchButton {
+    width: 80px !important;
+    height: 80px !important;
+    border-bottom: 2px solid rgb(218, 160, 36) !important;
+    border-top: 2px solid rgb(218, 160, 36) !important;
+    border-right: 2px solid rgb(218, 160, 36) !important;
+    border-left: none !important;
+    background-color: transparent !important;
+}
+.fa-magnifying-glass1 {
+    color: #fff !important;
+    font-size: 28px;
+}
+.first,
+.second,
+.third,
+.forth {
+    align-content: center !important;
+    width: 100% !important;
+    height: 100vh !important;
+    transition: transform .8s;
+    position: relative;
+    z-index: 0 !important;
+    justify-content: center !important;
+}
+.first::before {
+    content: "";
+    background-image: url("picture/walter tosto 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: brightness(70%);
+}
+.first:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    /* z-index: 8; */
+}
+.first:hover::before {
+    filter: brightness(40%);
+}
+.second::before {
+    content: "";
+    background-image: url("picture/walter tosto 4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: brightness(70%);
+}
+.second:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    /* z-index: 8; */
+}
+
+.second:hover::before {
+    filter: brightness(40%);
+}
+
+.third::before {
+    content: "";
+    background-image: url("picture/Walter-Tosto2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: brightness(70%);
+}
+
+.third:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    /* z-index: 8; */
+}
+
+.third:hover::before {
+    filter: brightness(40%);
+}
+
+.forth::before {
+    content: "";
+    background-image: url("picture/walter tosto 7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: brightness(70%);
+}
+
+.forth:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    /* z-index: 8; */
+}
+
+.forth:hover::before {
+    filter: brightness(40%);
+}
+
+.headerCompany,
+.headerProducts,
+.headerOperations,
+.headerSustainability {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    filter: brightness(100%) !important;
+    filter: contrast(100%) !important;
+    z-index: 10 !important;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 992px) {
+    .headerCompany,
+    .headerProducts,
+    .headerOperations,
+    .headerSustainability {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 992px) {
+    .headerCompany,
+    .headerProducts,
+    .headerOperations,
+    .headerSustainability {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .headerCompany,
+    .headerProducts,
+    .headerOperations,
+    .headerSustainability {
+        padding-top: 200px;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 992px) {
+    .ENGFA{
+        margin-top:0 !important;
+        padding-top: 0 !important;
+    }
+}
+
+.headerTextPicture {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    z-index: 10 !important;
+}
+
+.mouseEnterHover {
+    z-index: 10 !important;
+    display: none;
+    list-style: none !important;
+    line-height: 20px;
+}
+
+.headerTextPicture:hover {
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+/* .lineList {
+    color: #f3a42d;
+    margin-top: 20px;
+    display: block !important;
+} */
+
+.borderLine{
+    border-bottom: 2px solid #f3a42d;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    width: 0;
+    /* height: 20px; */
+    text-align: center !important;
+    align-content: center !important;
+    /* transition: width 1s; */
+}
+/* .borderLine:hover {
+    width: 80%;
+} */
+
+#subjects {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#subjects:hover {
+    color: #f3a42d;
+}
+
+.footer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: auto !important;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+    /* padding: 0 !important; */
+    z-index: 10;
+    overflow: hidden !important;
+}
+@media screen and (min-width:100px) and (max-width:767px){
+    .footer {
+        position: relative !important;
+        margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    bottom: 0;
+    left: 0;
+    /* overflow: scroll !important; */
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wifi {
+        margin-left: 20px !important;
+    }
+}
+
+.footerButton {
+    background-color: #cf9843;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    /* padding: 10px; */
+    padding-top: 10px !important;
+    /* padding-bottom: 0 !important;
+    padding-right: 0 !important; */
+}
+
+.LatestNews {
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.LatestNewsLink {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.LatestNewsLink:hover {
+    color: rgb(255, 255, 255);
+}
+
+.wifi {
+    /* padding-left: 20px !important; */
+    padding-top: 5px;
+    padding-right: 0 !important;
+}
+
+.arrow {
+    text-align: right !important;
+    /* font-size: 18px; */
+    /* padding: 0; */
+    /* padding-right: 0 !important; */
+    padding-left: 0 !important;
+}
+
+.fa-3x {
+    font-size: 30px !important;
+}
+
+.footerList {
+    background-color: #f6b147;
+    padding-top: 18px;
+}
+
+#footerList {
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+}
+
+.list-group {
+    flex-direction: row !important;
+    list-style-type: none;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.copyRight {
+    background-color: #f6b147;
+    text-align: center;
+    padding-right: 20px !important;
+    padding-top: 18px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .colCard {
+        width: 100% !important;
+    }
+}
+
+.newsCards {
+    background-color: #cf9843;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* overflow: auto !important; */
+
+}
+
+#newsCard {
+    display: none;
+}
+
+.theEndOfPage {
+    background-color: rgb(41, 34, 28);
+    height: 90px;
+    text-align: center !important;
+    padding-top: 35px;
+    display: none;
+}
+
+#theEndOfPage {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.colCard {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.mt-3 {
+    padding-bottom: 17px;
+    padding-top: 21px;
+}
+
+.img-fluid {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #cf9843 !important;
+}
+
+.card-title {
+    color: #f3a42d;
+    font-size: 14px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: fit-content;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.titleNews {
+    font-size: 17px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.titleNews:hover {
+    color: #f3a42d !important;
+}
+
+.readMore {
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.readMore:hover {
+    color: #f3a42d !important;
+}
